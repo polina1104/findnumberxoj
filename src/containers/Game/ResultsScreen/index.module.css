@@ -1,0 +1,13 @@
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.results {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: Open Sans, sans-serif;
+}

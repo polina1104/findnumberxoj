@@ -1,0 +1,75 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    justify-self: center;
+    height: 480px;
+    width: 630px;
+    background: #4db8ec;
+    border-radius: inherit;
+}
+
+.timer {
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    background-color: rgba(102, 102, 102, 0.5);
+    border-radius: 4px;
+}
+
+.taskNumber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 102px;
+    padding: 1.5em 1.2em;
+    border-radius: 3px;
+    color: #fff;
+    box-shadow: 0 7px 35px 0 rgb(0 0 0 / 30%);
+    background: inherit;
+    width: 460px;
+}
+
+.taskNumber_text {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+.taskNumber_number {
+    font-family: Open Sans, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 3.15em;
+    line-height: 1;
+}
+
+.content {
+    width: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbersContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.numbersRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.error img {
+    width: 128px;
+    height: 128px;
+}

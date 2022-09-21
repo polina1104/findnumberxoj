@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 60%;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.container:hover {
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    transform: translateY(-1px);
+}
+
+.pulse {
+    animation: pulse 1s infinite ease-in-out;
+}
+
+.flicker {
+    animation: flicker 1s infinite ease-in-out;
+}
+
+.rotate div {
+    animation: rotate 1s infinite ease-in-out;
+}
+
+.none {
+    animation: none;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes flicker {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(30deg);
+    }
+    50% {
+        transform: rotate(-30deg);
+    }
+    to {
+        transform: rotate(30deg);
+    }
+}

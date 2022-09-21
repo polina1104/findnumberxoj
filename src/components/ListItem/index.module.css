@@ -1,0 +1,29 @@
+.listItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.itemTitle {
+    display: flex;
+}
+
+.itemTitleIcon {
+    margin-right: 14px;
+}
+
+.itemTitleText {
+    font-size: 16px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.itemDescription {
+    padding-left: 40px;
+    font-size: 16px;
+}
+
+.itemTitleText, .itemDescription {
+    line-height: 2;
+    font-family: Open Sans, sans-serif;
+    color: #333;
+}
